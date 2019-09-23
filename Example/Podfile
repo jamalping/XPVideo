@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XPVideo_Example' do
+  pod 'XPVideo', :path => '../'
+
+  target 'XPVideo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
