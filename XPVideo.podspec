@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XPVideo"
-  s.version      = "0.0.1"
+  s.version      = "[A[A0.0.2"
   s.summary      = "XPVideo."
 
   s.description  = <<-DESC
