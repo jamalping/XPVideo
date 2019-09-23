@@ -41,11 +41,11 @@
 		607FACE51AFB9204008FA782 /* XPVideo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPVideo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A123B0E71F492EE1E9F18545 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A123B0E71F492EE1E9F18545 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A592738E00A01AA400AF06F4 /* Pods-XPVideo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPVideo_Example.debug.xcconfig"; path = "Target Support Files/Pods-XPVideo_Example/Pods-XPVideo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B54984F2D8F8DBA00C794D11 /* Pods-XPVideo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPVideo_Tests.release.xcconfig"; path = "Target Support Files/Pods-XPVideo_Tests/Pods-XPVideo_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C858CCA747BA70C8E0E9AE66 /* XPVideo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XPVideo.podspec; path = ../XPVideo.podspec; sourceTree = "<group>"; };
-		DA97C80EE1B4AD8B00E05D5E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C858CCA747BA70C8E0E9AE66 /* XPVideo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XPVideo.podspec; path = ../XPVideo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DA97C80EE1B4AD8B00E05D5E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E2ED9CC5FC10CA2C96977E41 /* Pods-XPVideo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPVideo_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XPVideo_Tests/Pods-XPVideo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				E2ED9CC5FC10CA2C96977E41 /* Pods-XPVideo_Tests.debug.xcconfig */,
 				B54984F2D8F8DBA00C794D11 /* Pods-XPVideo_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
